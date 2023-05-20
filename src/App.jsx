@@ -8,8 +8,9 @@ function App() {
     <>
       <Greeter person="Bill" from="Ivan" />
       <Greeter person="Ted" from="Yana" />
+      <Greeter />
       <Die numSides={20} />
-      <Die numSides={6} />
+      <Die />
       <Die numSides={12} />
     </>
   )
